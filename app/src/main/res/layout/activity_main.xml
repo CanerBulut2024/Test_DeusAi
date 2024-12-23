@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <!-- Resim Butonu -->
+    <ImageButton
+        android:id="@+id/btnImagePicker"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/ic_photo_camera"
+        android:contentDescription="@string/image_picker"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Kullanıcı Metin Girişi -->
+    <EditText
+        android:id="@+id/etUserInput"
+        android:layout_width="match_parent"
+        android:layout_height="364dp"
+        android:layout_marginBottom="16dp"
+        android:hint="@string/enter_text"
+        android:inputType="text" />
+
+    <!-- Filtreler Bölümü -->
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp">
+
+        <LinearLayout
+            android:id="@+id/filterContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <!-- Dinamik olarak eklenen filtreler -->
+            <ImageButton
+                android:id="@+id/filter1"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/ic_filter"
+                android:contentDescription="@string/free_filter"
+                android:layout_marginEnd="8dp" />
+            <ImageButton
+                android:id="@+id/filter2"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/ic_filter_lock"
+                android:contentDescription="@string/premium_filter"
+                android:layout_marginEnd="8dp"
+                android:enabled="false" /> <!-- Premium Filtre Kilitli -->
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <!-- Oluştur Butonu -->
+    <Button
+        android:id="@+id/btnCreate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/create_button"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Premium Butonu -->
+    <Button
+        android:id="@+id/btnPremium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/premium_button"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Alt Menü Butonları -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/btnTips"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_tips"
+            android:contentDescription="@string/tips_button" />
+
+        <ImageButton
+            android:id="@+id/btnHome"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_home"
+            android:contentDescription="@string/home_button" />
+
+        <ImageButton
+            android:id="@+id/btnUser"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_user"
+            android:contentDescription="@string/user_button" />
+    </LinearLayout>
+
+</LinearLayout>

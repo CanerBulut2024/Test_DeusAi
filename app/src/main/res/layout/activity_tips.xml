@@ -1,0 +1,51 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Uygulama Hakkında Bilgiler -->
+    <TextView
+        android:id="@+id/tvAppInfo"
+        android:layout_width="match_parent"
+        android:layout_height="172dp"
+        android:layout_marginBottom="16dp"
+        android:text="Uygulama hakkında bilgiler"
+        android:textSize="18sp" />
+
+    <!-- Uygulama Nasıl Kullanılır -->
+    <TextView
+        android:id="@+id/tvHowToUse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Uygulama nasıl kullanılır?"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Uygulama İpuçları -->
+    <TextView
+        android:id="@+id/tvAppTips"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Uygulama ipuçları"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Sık Sorulan Sorular -->
+    <TextView
+        android:id="@+id/tvFAQ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sık Sorulan Sorular"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Çevrimdışı Erişim İçin Önbellek İpuçları -->
+    <Button
+        android:id="@+id/btnOfflineCacheTips"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Çevrimdışı ipuçlarını önbelleğe al" />
+
+</LinearLayout>

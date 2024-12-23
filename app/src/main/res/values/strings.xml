@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Test_DeusAi</string>
+    <string name="next">İleri</string>
+    <string name="world_icon_description">Dünya İkonu</string>
+    <string name="username">Kullanıcı Adı</string>
+    <string name="password">Şifre</string>
+    <string name="forgot_password">Şifremi Unuttum</string>
+    <string name="login">Giriş Yap</string>
+    <string name="register">Kayıt Ol</string>
+    <string name="email">E-posta</string>
+    <string name="confirm_password">Şifrenizi Tekrar Yazınız</string>
+    <string name="login_with_google">Google ile Giriş</string>
+    <string name="image_picker">Fotoğraf Seç</string>
+    <string name="enter_text">Bir metin girin</string>
+    <string name="create_button">Oluştur</string>
+    <string name="premium_button">Premium</string>
+    <string name="tips_button">İpuçları</string>
+    <string name="home_button">Ana Sayfa</string>
+    <string name="user_button">Kullanıcı</string>
+    <!-- Kullanıcı Sayfası -->
+    <string name="user_info">Kullanıcı Bilgileri</string>
+    <string name="change_password">Şifre Değiştir</string>
+    <string name="premium_plan">Premium Plan ve Özellikler</string>
+    <string name="about_us">Hakkımızda</string>
+    <string name="settings">Ayarlar</string>
+    <string name="logout">Çıkış Yap</string>
+    <string name="switch_account">Hesap Değiştir</string>
+    <string name="are_you_sure_logout">Çıkış yapmak istediğinizden emin misiniz?</string>
+    <string name="yes">Evet</string>
+    <string name="no">Hayır</string>
+    <string name="turkish">Türkçe</string>
+    <string name="english">İngilizce</string>
+
+
+    <string name="free_filter">Ücretsiz Filtre</string>
+    <string name="premium_filter">Premium Filtre</string>
+
+    <string name="app_info">Uygulama hakkında bilgiler</string>
+    <string name="how_to_use">Uygulama nasıl kullanılır?</string>
+    <string name="app_tips">Uygulama ipuçları</string>
+    <string name="faq">Sık Sorulan Sorular</string>
+    <string name="offline_cache_tips">Çevrimdışı ipuçlarını önbelleğe al</string>
+
+</resources>

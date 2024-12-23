@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/tvSwitchAccountTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hesap Değiştir"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnExistingAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mevcut Hesapla Devam Et"
+        android:backgroundTint="@color/primary_color"
+        android:textColor="@color/white"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnAddNewAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Yeni Hesap Ekle"
+        android:backgroundTint="@color/secondary_color"
+        android:textColor="@color/white" />
+
+</LinearLayout>

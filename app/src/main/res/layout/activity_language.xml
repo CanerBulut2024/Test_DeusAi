@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <!-- Başlık -->
+    <TextView
+        android:id="@+id/tvLanguageTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dil Seçimi"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Türkçe Butonu -->
+    <Button
+        android:id="@+id/btnTurkish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Türkçe"
+        android:backgroundTint="@color/primary_color"
+        android:textColor="@color/white"
+        android:layout_marginBottom="12dp" />
+
+    <!-- İngilizce Butonu -->
+    <Button
+        android:id="@+id/btnEnglish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="English"
+        android:backgroundTint="@color/primary_color"
+        android:textColor="@color/white"
+        android:layout_marginBottom="12dp" />
+</LinearLayout>
